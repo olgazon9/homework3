@@ -1,0 +1,45 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for header */
+header {
+    background-color: #f6f6f6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for main content */
+main {
+    padding: 20px;
+}
+
+/* Styling for pizza types section */
+#pizza-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pizza-type {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pizza-type img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Styling for footer */
+footer {
+    background-color: #f6f6f6;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
